@@ -61,94 +61,95 @@ html {
 }
 
 /* ======================================== */
-
-#order {
+/* Body style */
+#form {
 	width: 50%;
+	height: 100%;
 	margin-left: auto;
 	margin-right: auto;
 }
 
-fieldset#custInfo h1 {
+#custInfo {
+	border: 2px solid #7c501a;
+	margin-left: auto;
+	margin-right: auto;
+	box-shadow: 14px 0px 8px #7c501a, -14px 0px 8px #7c501a;
+}
+
+#custInfo h1 {
 	color: #7c501a;
 }
 
-fieldset#orderDetails h2 {
-	color: #7c501a;	
-}
-
-#custInfo {
-	border: 2px solid #7c501a;
-}
 
 #orderDetails {
 	border: 2px solid #7c501a;
 	margin-top: 3px;
+	margin-left: auto;
+	margin-right: auto;
+	box-shadow: 14px 0px 8px #7c501a, -14px 0px 8px #7c501a;
+}
+
+#orderDetails h2 {
+	color: #7c501a;	
 }
 
 /* Order details */
 textarea {
 	margin-top: 10px;
 	height: 150px;
-	width: 50%;
+	width: 40%;
 }
 
-label#name {
+#name {
 	color: #7c501a;
 	font-size: 1em;
 	font-weight: bold;
 }
 
-label#phone {
+#phone {
 	color: #7c501a;
 	font-size: 1em;
 	font-weight: bold;
 }
 
-label#email {
+#email {
 	color: #7c501a;
 	font-size: 1em;
 	font-weight: bold;
 }
 
-label#pickupDate {
+#pickupDate {
 	color: #7c501a;
 	font-size: 1em;
 	font-weight: bold;
 }
 
-label#pickupTime {
+#pickupTime {
 	color: #7c501a;
 	font-size: 1em;
 	font-weight: bold;
 }
 
-label#items {
+#items {
 	color: #7c501a;
 	font-size: 1em;
 	font-weight: bold;
 }
 
-label#specialInstructions {
+#specialInstructions {
 	color: #7c501a;
 	font-size: 1em;
 	font-weight: bold;
 }
-
-	
 
 input[type="submit"], input[type="reset"] {
 	font-size: 1em;
+	font-weight: bold;
 	padding: 5px;
 	margin: 15px;
 	background-color: #7c501a;
 	color: #fff2cc;
 }
-
-
-
-
-
-
 
 /* ======================================== */
 /* footer style */

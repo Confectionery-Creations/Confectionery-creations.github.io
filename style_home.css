@@ -66,6 +66,7 @@ html {
 /* Main body style */
 article {
 	box-shadow: 14px 0px 8px #7c501a, -14px 0px 8px #7c501a;
+	
 }
 
 /* Body style cookie */
@@ -75,6 +76,7 @@ article {
 	grid-auto-rows: 850px;
 	align-items: center;
 	justify-items: center;
+	margin-left: 90px;
 	
 }
 
@@ -173,6 +175,7 @@ article {
 	grid-auto-rows: 850px;
 	align-items: center;
 	justify-items: center;
+	margin-left: 90px;
 }
 
 #cake h1 {
@@ -257,6 +260,7 @@ article {
 	grid-auto-rows: 850px;
 	align-items: center;
 	justify-items: center;
+	margin-left: 90px;
 }
 
 #pie h1 {
@@ -342,6 +346,10 @@ article {
 	padding-bottom: 20px;
 	text-align: center;
 	line-height: 1.6;
+}
+
+.about h2 {
+	margin-left: 90px;
 }
 
 
