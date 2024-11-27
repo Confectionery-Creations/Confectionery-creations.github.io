@@ -13,6 +13,7 @@
 html {
 	min-width: 1342px;
 	max-width: 2187px;
+	margin: auto;
 	/*background-color: #fff2cc;*/
 	background: linear-gradient(rgb(255,228,178) , rgb(255,201,102), rgb(207,156,62), rgb(255,201,102), rgb(255,228,178));
 }
@@ -28,7 +29,8 @@ html {
 	color: transparent;
 	background-clip: text;
 	font-size: 75px;
-	margin: 0;
+	margin-top: 0;
+	margin-bottom: 0;
 	font-weight: bold;
 }
 
@@ -66,22 +68,32 @@ article {
 	box-shadow: 14px 0px 8px #7c501a, -14px 0px 8px #7c501a;
 }
 
+
+.stock { 
+	display: flex;
+	height: 600px;
+	align-items: center;
+	margin-left: 150px;
+}
+
+.stock label {
+	color: #7c501a;
+	font-size: 1.5em;
+	font-weight: bold;
+}
+
+
 /* ======================================== */
 /* Body style class cookie */
-.cookie, .cookie h2 {
+.cookie {
 	justify-items: center;
 }
 
-.cookie h2 {
+.cookie h1 {
 	color: #7c501a;
-	font-size: 2em;
+	font-size: 2.25em;
 	padding-top: 10px;
-}
-
-.cookie p {
-	color: #7c501a;
-	font-size: 24px;
-	padding-top: 10px
+	justify-self: center;
 }
 
 .cookie img {
@@ -89,26 +101,43 @@ article {
 	width: 50%;
 	border: 5px solid #7c501a;
 	border-radius: 25px;
-	margin-left: auto;
-	margin-right: auto;
 }
+
+#chocolate-chip {
+	width: 25%;
+	justify-self: center;
+
+}
+
+#oatmeal {
+	width: 25%;
+	justify-content: center;
+
+}
+
+#peanut-butter {
+	width: 25%;
+
+}
+
+
+#sugar {
+	width: 25%;
+
+}
+
 
 /* ======================================== */
 /* Body style class cake */
-.cake, .cake h2 {
+.cake {
 	justify-items: center;
 }
 
-.cake h2 {
+.cake h1 {
 	color: #7c501a;
-	font-size: 2em;
+	font-size: 2.25em;
 	padding-top: 10px;
-}
-
-.cake p {
-	color: #7c501a;
-	font-size: 24px;
-	padding-top: 10px
+	justify-self: center;
 }
 
 .cake img {
@@ -116,25 +145,36 @@ article {
 	width: 50%;
 	border: 5px solid #7c501a;
 	border-radius: 25px;
-	margin-left: auto;
-	margin-right: auto;
 }
+
+#bunt {
+	width: 25%;
+}
+
+#cookieCake {
+	width: 25%;
+}
+
+#peanut-butter {
+	width: 25%;
+}
+
+
+#sugar {
+	width: 25%;
+}
+
 /* ======================================== */
 /* Body style class pie */
-.pie, .pie h2 {
+.pie {
 	justify-items: center;
 }
 
-.pie h2 {
+.pie h1 {
 	color: #7c501a;
-	font-size: 2em;
+	font-size: 2.25em;
 	padding-top: 10px;
-}
-
-.pie p {
-	color: #7c501a;
-	font-size: 24px;
-	padding-top: 10px
+	justify-self: center;
 }
 
 .pie img {
@@ -142,8 +182,23 @@ article {
 	width: 50%;
 	border: 5px solid #7c501a;
 	border-radius: 25px;
-	margin-left: auto;
-	margin-right: auto;
+}
+
+#bunt {
+	width: 25%;
+}
+
+#cookieCake {
+	width: 25%;
+}
+
+#peanut-butter {
+	width: 25%;
+}
+
+
+#sugar {
+	width: 25%;
 }
 
 /* ======================================== */
@@ -152,30 +207,24 @@ article {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	
 }
 
 .menu h2 {
 	color: #7c501a;
-	font-size: 2em;
+	font-size: 2.25em;
 	justify-self: center;
+	margin-bottom: 0;
 }
-
-.menu ul {
-	display: flex;
-	justify-content: center;
-	padding-bottom: 20px;
-}
-
-.menu ul li {
-	padding: 7px;
-	list-style: inside;
+.menu > p {
 	color: #7c501a;
 	font-size: 1.5em;
+	justify-self: center;
+	margin-bottom: 0;
 }
 
 /* ======================================== */
 /* Button sytle */
+
 .button {
 	background-color: #7c501a; 
 	color: #fff2cc;
@@ -199,6 +248,7 @@ article {
 /* footer style */
 
 footer {
+	clear: both;
 	background-color: #7c501a;		
 	border-radius: 25px;
 }

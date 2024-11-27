@@ -12,11 +12,7 @@
 html {
 	min-width: 1342px;
 	max-width: 2187px;
-	height: 100%;
-	margin-left: auto;
-	margin-right: auto;
-	width: 100%;
-	/*background-color: #fff2cc;*/
+	margin: auto;
 	background: linear-gradient(rgb(255,228,178) , rgb(255,201,102), rgb(207,156,62), rgb(255,201,102), rgb(255,228,178));
 }
 
@@ -31,7 +27,8 @@ html {
 	color: transparent;
 	background-clip: text;
 	font-size: 75px;
-	margin: 0;
+	margin-top: 0;
+	margin-bottom: 0;
 	font-weight: bold;
 }
 
@@ -65,26 +62,87 @@ html {
 
 /* ======================================== */
 
+#order {
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
 fieldset#custInfo h1 {
 	color: #7c501a;
 }
 
 fieldset#orderDetails h2 {
-	color: #7c501a;
+	color: #7c501a;	
 }
 
+#custInfo {
+	border: 2px solid #7c501a;
+}
 
-
-
+#orderDetails {
+	border: 2px solid #7c501a;
+	margin-top: 3px;
+}
 
 /* Order details */
 textarea {
 	margin-top: 10px;
 	height: 150px;
-	width: 18%;
+	width: 50%;
 }
 
+label#name {
+	color: #7c501a;
+	font-size: 1em;
+	font-weight: bold;
+}
 
+label#phone {
+	color: #7c501a;
+	font-size: 1em;
+	font-weight: bold;
+}
+
+label#email {
+	color: #7c501a;
+	font-size: 1em;
+	font-weight: bold;
+}
+
+label#pickupDate {
+	color: #7c501a;
+	font-size: 1em;
+	font-weight: bold;
+}
+
+label#pickupTime {
+	color: #7c501a;
+	font-size: 1em;
+	font-weight: bold;
+}
+
+label#items {
+	color: #7c501a;
+	font-size: 1em;
+	font-weight: bold;
+}
+
+label#specialInstructions {
+	color: #7c501a;
+	font-size: 1em;
+	font-weight: bold;
+}
+
+	
+
+input[type="submit"], input[type="reset"] {
+	font-size: 1em;
+	padding: 5px;
+	margin: 15px;
+	background-color: #7c501a;
+	color: #fff2cc;
+}
 
 
 

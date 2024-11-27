@@ -41,37 +41,41 @@
 			<fieldset id="custInfo">
 				<h1>Customer Information</h1>
 			
-				<label for="name">Name:</label>
+				<label for="name" id="name">Name:</label>
 				<input type="text" id="name" name="custName" required>
 				<br><br>
 
-				<label for="phone">Phone Number:</label>
+				<label for="phone" id="phone">Phone Number:</label>
 				<input type="tel" id="phone" name="custPhone" required>
 				<br><br>
 
-				<label for="email">Email:</label>   
+				<label for="email" id="email">Email:</label>   
 				<input type="email" id="email" name="custEmail" required>
-				<br><br>   
+				<br><br>
+				  
 			</fieldset>
 			<fieldset id="orderDetails">
 				<h2>Order Details</h2>
 
-				<label for="items">Items:</label><br>
-				<textarea id="items" name="custItems" placeholder="Item description" required></textarea>
+				<label for="items" id="items">Items / Quantity:</label><br>
+				<textarea id="items" name="custItems" placeholder="Item description / Quantity" required></textarea>
 				<br><br>
 
-				<label for="pickupDate">Pickup Date:</label>
+				<label for="pickupDate" id="pickupDate">Pickup Date:</label>
 				<input type="date" id="pickupDate" name="pickupDate" required>
 				<br><br>
 
-				<label for="pickupTime">Pickup Time:</label>
+				<label for="pickupTime" id="pickupTime">Pickup Time:</label>
 				<input type="time" id="pickupTime" name="pickupTime" required>
 				<br><br>
 
-				<label for="specialInstructions">Special Instructions:</label><br>
+				<label for="specialInstructions" id="specialInstructions">Special Instructions:</label><br>
 				<textarea id="specialInstructions" name="specialInstructions" rows="3" cols="30"></textarea>
 				<br><br>
+				
 				<input type="submit" value="Submit Order">
+				<input type="reset" value="Cancel">
+				
 			</fieldset>
 		</form>		
     </article>
